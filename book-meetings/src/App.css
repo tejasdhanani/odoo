@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box  ;
+}
+  
+.app {
+  margin: 1rem;
+}
+
+.searchComponent {
+  display: flex;
+  justify-content: center;
+}
+
+.roomCard-container {
+  cursor: pointer;
+}
+
+.roomCard {
+  border: 1.5px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.roomCard + .roomCard {
+  margin: 5px;
+}
+
+.roomCard_firstRow, .roomCard_secondRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-panel {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.main-panel-container {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 1rem;
+}
+
+.left-panel {
+  width: 50%;
+}
+
+.right-panel {
+  width: 50%;
+}
+
+.room-book-container {
+  border: 1.5px solid black;
+  padding: 5px;
+}
+
+.room-book-panel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.room-book-panel-left{
+  width: 50%;
+}
+
+.room-title {
+  text-align: left;
+  
+}
+
+.room-book-panel-left .room-title {
+  margin-bottom: 25px;
+}
+
+.room-book-panel-right {
+  margin: 10px;
+}
+
+.btn {
+  background: black;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  padding: 0.25rem 1rem;
+}
+
+.book {
+  font-size: large;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding: 0.25rem 1.25rem;
+}
+
+.book:disabled {
+  cursor: default;
+  background-color: grey;
+}
+
+.dateOptions-container, .days-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.date-option, .day{
+  flex-basis: 13%;
+}
+
+.date-option, .day {
+  background: none;
+  margin: 1px;
+  padding: 5px;
+}
+
+.selected{
+  background-color: lightgreen;
+}
+
+.day {
+  background-color: lightgoldenrodyellow;
+}
+
+.date-option:hover {
+  background: rgb(197, 193, 193);
+}
+
+.date-option:focus {
+  background-color: lightgreen;
+}
+
+.time-option {
+  border: 1px solid black;
+  background: none;
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px;
+} 
+
+.time-option:hover {
+  background: rgb(197, 193, 193);
+}
+
+.time-option:focus {
+  background-color: lightgreen;
+}
+
+.time-option:disabled {
+  cursor:  default;
+  /* color: red; */
+  border: 1px dashed red;
+}
+
+.date-option:disabled {
+  cursor:  default;
+  /* color: red; */
+  border: 1px dashed red;
+}
+
+.room-status{
+  margin-left: 10px;
+}
+
+.room-tag {
+  background-color: rgb(235, 231, 231);
+  border-radius: 5px;
+  padding: 0px 5px;
+  margin: 0 5px;
+}
+
+.capacity {
+  margin-top: 10px;
+}
+
+.timeOptions-container {
+  margin-top: 15px;
+}
