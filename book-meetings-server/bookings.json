@@ -1,0 +1,152 @@
+{
+  "rooms": [
+    {
+      "roomId": 1,
+      "status": "currently available",
+      "tags": [
+        "projector",
+        "sound"
+      ],
+      "capacity": 150,
+      "bookings": [
+        {
+          "date": 13,
+          "times": [
+            "10:00 - 10:30"
+          ]
+        }
+      ]
+    },
+    {
+      "roomId": 2,
+      "status": "available after 30 min",
+      "tags": [],
+      "capacity": 5,
+      "bookings": [
+        {
+          "date": 13,
+          "times": [
+            "11:00 - 11:30",
+            "11:30 - 12:00",
+            "12:00 - 12:30"
+          ]
+        },
+        {
+          "date": 15,
+          "times": [
+            "11:00 - 11:30"
+          ]
+        },
+        {
+          "date": 27,
+          "times": [
+            "11:30 - 12:00",
+            "12:00 - 12:30",
+            "12:30 - 1:00"
+          ]
+        },
+        {
+          "date": 28,
+          "times": [
+            "4:30 - 5:00"
+          ]
+        },
+        {
+          "date": 26,
+          "times": [
+            "11:30 - 12:00"
+          ]
+        },
+        {
+          "date": 11,
+          "times": [
+            "10:30 - 11:00"
+          ]
+        }
+      ]
+    },
+    {
+      "roomId": 3,
+      "status": "currently available",
+      "tags": [
+        "projector"
+      ],
+      "capacity": 15,
+      "bookings": [
+        {
+          "date": 14,
+          "times": [
+            "2:00 - 2:30",
+            "3:00 - 3:30"
+          ]
+        },
+        {
+          "date": 15,
+          "times": [
+            "3:00 - 3:30"
+          ]
+        },
+        {
+          "date": 13,
+          "times": [
+            "11:30 - 12:00",
+            "6:00 - 6:30"
+          ]
+        }
+      ]
+    },
+    {
+      "roomId": 4,
+      "status": "available after 30 min",
+      "tags": [
+        "sound"
+      ],
+      "capacity": 30,
+      "bookings": [
+        {
+          "date": 14,
+          "times": [
+            "2:00 - 2:30",
+            "3:00 - 3:30"
+          ]
+        },
+        {
+          "date": 15,
+          "times": [
+            "3:00 - 3:30"
+          ]
+        },
+        {
+          "date": 25,
+          "times": [
+            "11:00 - 11:30"
+          ]
+        }
+      ]
+    },
+    {
+      "roomId": 5,
+      "status": "available at tomorrow",
+      "tags": [
+        "large screen",
+        "sound"
+      ],
+      "capacity": 1000,
+      "bookings": [
+        {
+          "date": 14,
+          "times": [
+            "2:00 - 2:30",
+            "3:00 - 3:30"
+          ]
+        },
+        {
+          "date": 15,
+          "times": [
+            "3:00 - 3:30"
+          ]
+        }
+      ]
+    }
+  ]
+}
